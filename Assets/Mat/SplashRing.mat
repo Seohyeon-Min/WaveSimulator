@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SplashRing
+  m_Shader: {fileID: 4800000, guid: a327f57ae8cd73d604c252c87862ca44, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Amplitude: 0.3
+    - _AmplitudeVarianceFreq: 3
+    - _AmplitudeVarianceStrength: 0.5
+    - _BaseHeight: 0.5
+    - _EdgeSoftness: 0.011
+    - _ExpandT: 0
+    - _HoleChance: 0
+    - _HoleRadius: 0
+    - _HoleScale: 1
+    - _MaxGrowSpeed: 2
+    - _MaxHeightScale: 1.3
+    - _MaxShrinkSpeed: 2.5
+    - _MinGrowSpeed: 0.7
+    - _MinHeightScale: 0.5
+    - _MinShrinkSpeed: 0.8
+    - _PatternScrollSpeed: 3
+    - _Period: 5
+    - _PeriodVarianceFreq: 2
+    - _PeriodVarianceStrength: 0.15
+    - _Phase: 0
+    - _TipWidth: 0.15
+    - _VoronoiLineIntensity: 0.936
+    - _VoronoiLineWidth: 0.125
+    - _VoronoiScale: 2.4
+    - _VoronoiWarpFreq: 3.82
+    - _VoronoiWarpStrength: 0.525
+    m_Colors:
+    - _Color: {r: 0.55, g: 0.9, b: 1, a: 1}
+    - _TipColor: {r: 1, g: 1, b: 1, a: 1}
+    - _VoronoiLineColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
